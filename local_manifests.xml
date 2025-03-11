@@ -11,7 +11,7 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS revision="lineage-22.1" />
+    <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Device - Common -->
     <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="LineageOS" revision="lineage-22.1" />
