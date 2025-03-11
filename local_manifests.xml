@@ -14,7 +14,7 @@
     <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS revision="lineage-22.1" />
 
     <!-- Device - Common -->
-    <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="lineage-22.1" revision="14.0" />
+    <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Kernel -->
     <project path="kernel/samsung/gta4l" name="android_kernel_samsung_gta4l" remote="Matrixx-Devices" revision="14.0" />    
