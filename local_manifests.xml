@@ -3,18 +3,18 @@
 <!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
-    <remote name="Matrixx-Devices" fetch="https://github.com/Matrixx-Devices" clone-depth="1" />
-    <remote name="CuriousNom" fetch="https://github.com/CuriousNom" clone-depth="1" />
-    <remote name="z3zens" fetch="https://gitlab.com/z3zens" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+    <remote name="Matrixx-Devices" fetch="https://gitlab.com/Matrixx-Devices" clone-depth="1" />
 
     <!-- Removals -->
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="CuriousNom" revision="lineage-21" />
+    <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS revision="lineage-22.1" />
 
     <!-- Device - Common -->
-    <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="Matrixx-Devices" revision="14.0" />
+    <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="lineage-22.1" revision="14.0" />
 
     <!-- Kernel -->
     <project path="kernel/samsung/gta4l" name="android_kernel_samsung_gta4l" remote="Matrixx-Devices" revision="14.0" />    
@@ -22,9 +22,9 @@
 
 
     <!-- Vendor -->
-    <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="CuriousNom" revision="lineage-21" />
+    <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="TheMuppets" revision="lineage-22.1" />
 
     <!-- Vendor - Common -->
-    <project path="vendor/samsung/gta4l-common" name="android_vendor_samsung_gta4l-common" remote="Matrixx-Devices" revision="14.0" />
+    <project path="vendor/samsung/gta4l-common" name="android_vendor_samsung_gta4l-common" remote="TheMuppets" revision="lineage-22.1" />
 
 </manifest>
